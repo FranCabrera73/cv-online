@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Fran Cabrera - Desarrollador & Analista</title>
     <style>
-      /* Estilos generales */
+        /* Estilos generales */
         body {
             font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             margin: 0;
@@ -47,19 +47,15 @@
             margin: 10px 0;
             font-size: 0.95em;
         }
-        
-        /* --- ESTILOS DE ENLACES CORREGIDOS --- */
         .contact-info a {
-            color: #ecf0f1; /* Mismo color claro que el texto normal para máxima legibilidad */
-            text-decoration: none; /* Elimina el subrayado siempre */
+            color: #ecf0f1;
+            text-decoration: none;
             transition: color 0.2s ease;
         }
         .contact-info a:hover {
-            color: #18bc9c; /* Cambia a verde agua sutil al pasar el ratón */
-            text-decoration: none; /* Asegura que tampoco haya subrayado al pasar el ratón */
+            color: #18bc9c;
+            text-decoration: none;
         }
-        /* -------------------------------------- */
-
         .skills-list {
             list-style: none;
             padding: 0;
@@ -114,6 +110,7 @@
         }
         li {
             margin-bottom: 6px;
+            text-align: justify;
         }
         p.profile-text {
             text-align: justify;
@@ -129,7 +126,7 @@
                 <p>📍 La Cala del Moral, Málaga</p>
                 <p>📞 952 97 30 57<br>&nbsp;&nbsp;&nbsp;&nbsp; 626 91 33 53</p>
                 <p>✉️ <a href="mailto:fcocabreralopez@gmail.com">fcocabreralopez@gmail.com</a></p>
-                <p>🔗 <a href="https://linkedin.com/in/francisco-cabrera">linkedin.com/in/francisco-cabrera</p></a>
+                <p>🔗 <a href="https://linkedin.com/in/francisco-cabrera" target="_blank">linkedin.com/in/francisco-cabrera</a></p>
             </div>
 
             <h2>Hard Skills</h2>
@@ -141,13 +138,15 @@
                 <li>Arquitectura de ERPs</li>
                 <li>Contabilidad y Fiscalidad</li>
             </ul>
-            <h2>HABILIDADES TRANSVERSALES</h2>
+
+            <h2>Soft Skills</h2>
             <ul class="skills-list">
-            <li><b>Visión Estratégica y Resolución de Problemas:</b> Capacidad para identificar cuellos de botella operativos y diseñar soluciones tecnológicas rentables (ROI).</li>
-            <li><b>Liderazgo y Gestión de Equipos:</b>  Experiencia consolidada dirigiendo departamentos administrativos y coordinando personal intra y extracompartamental.</li>
-                <li><b>Traducción de Negocio (Stakeholder Management):</b> Habilidad para comunicar conceptos técnicos a gerencia y traducir normativas fiscales/contables a lógica de programación.</li>
-                <li><b>Adaptabilidad y Aprendizaje Continuo:</b> Evolución proactiva hacia las nuevas tecnologías y la IA aplicada, integrándolas en entornos de negocio tradicionales.</li>
-        </ul>
+                <li>Visión Estratégica (ROI)</li>
+                <li>Liderazgo y Gestión de Equipos</li>
+                <li>Traducción de Negocio (Stakeholders)</li>
+                <li>Adaptabilidad Tecnológica</li>
+            </ul>
+
             <h2>Idiomas</h2>
             <ul class="skills-list">
                 <li>Inglés - B2</li>
@@ -155,23 +154,33 @@
         </div>
 
         <div class="main-content">
-            <h1>Francisco José Cabrera López</h1>
+            <h1>Fran Cabrera</h1>
             <div class="subtitle">Desarrollador de Software & Analista de Datos</div>
 
             <h2 class="section-title">Perfil Profesional</h2>
             <p class="profile-text">Profesional con casi 20 años de experiencia en la dirección administrativa y financiera, en transición activa hacia el desarrollo de software y la ingeniería de datos. Aporto una visión integral del negocio, combinando una sólida formación en Ciencias Empresariales con capacidades técnicas avanzadas. Especializado en traducir flujos de trabajo contables en soluciones tecnológicas eficientes para sistemas de gestión corporativa.</p>
 
             <h2 class="section-title">Proyectos Tecnológicos</h2>
+            
             <div class="job-title">Sistema ERP Personalizado (En desarrollo)</div>
             <ul>
-                <li>Arquitectura y programación de un sistema integral de gestión empresarial utilizando Django (Backend) y React (Frontend).</li>
+                <li>Diseño y desarrollo modular backend bajo arquitectura enfocada en negocio (Domain-Driven Design) para digitalizar la gestión fiscal y de recursos humanos.</li>
+                <li>Programación de un pipeline automatizado de ingesta de nóminas masivas mediante OCR y manipulación de archivos PDF con un motor de integridad para evitar duplicidad de pagos.</li>
+                <li>Desarrollo de un motor generador de remesas bancarias bajo el estándar estricto SEPA (ISO 20022 / pain.001.001.03) para la automatización de flujos de tesorería.</li>
             </ul>
             
-            <div class="job-title">Sistema de Trading Algorítmico Cuantitativo</div>
+            <div class="job-title">Automatización de Procesos y Extracción de Datos (Prototipo)</div>
             <ul>
-                <li>Desarrollo de un bot focalizado en el mercado de futuros, integrando modelos de Machine Learning para análisis de volatilidad en timeframes de 5 minutos.</li>
+                <li>Arquitectura de un sistema de extracción semántica de datos mediante la API de Gemini (LLMs) para procesar de forma estructurada (JSON) facturas de proveedores.</li>
+                <li>Implementación de lógica defensiva frente a alucinaciones de IA y diseño de una estrategia de enrutamiento dual para optimizar drásticamente el consumo de tokens y los costes de infraestructura.</li>
+                <li>Evaluación analítica del ROI de la solución tecnológica para determinar la viabilidad financiera de su despliegue a producción en base a la escala del negocio.</li>
             </ul>
 
+            <div class="job-title">Sistema de Trading Algorítmico Cuantitativo</div>
+            <ul>
+                <li>Construcción de un bot enfocado en la operativa en el mercado de futuros de materias primas con control de riesgo automatizado.</li>
+                <li>Integración de modelos predictivos basados en Machine Learning (XGBoost) para la monitorización de flujos de volatilidad institucional operando en timeframes de 5 minutos.</li>
+            </ul>
 
             <h2 class="section-title">Experiencia Profesional</h2>
             <div class="job-title">Responsable Administrativo-Financiero</div>
@@ -185,7 +194,7 @@
             <div class="job-title">Jefe de Administración</div>
             <div class="job-date">Villanueva Gómez, S.L. | May 2005 - Jun 2007</div>
             <ul>
-                <li>Miembro del comité de dirección, asumiendo la gerencia administrativa de 3 estaciones de servicio y gestionando un equipo de más de 20 personas.</li>
+                <li>Miembro del comité de dirección, asumiendo la gerencia administrativa de 3 estaciones de servicio y gestionando un equipo de más de 20 personas orientado a objetivos.</li>
             </ul>
 
             <h2 class="section-title">Formación Académica</h2>
